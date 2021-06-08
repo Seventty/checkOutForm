@@ -1,0 +1,26 @@
+body:last-child {
+  background-color: rgb(207, 206, 206);
+}
+
+.Check {
+  position: relative;
+  font-family: "Lucida Console";
+  font-size: calc(1.5em + 1vw);
+  padding-top: 2%;
+  letter-spacing: 1em;
+  overflow: hidden;
+  background: linear-gradient(
+    100deg,
+    rgb(5, 35, 206),
+    rgb(55, 85, 255),
+    #000,
+    rgb(90, 114, 253)
+  );
+  background-repeat: no-repeat;
+  background-size: 80%;
+  animation: animate 3s linear infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(0, 0, 0, 0.363);
+  text-align: center;
+  font-style: normal;
+}
